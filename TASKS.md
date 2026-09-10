@@ -1,11 +1,13 @@
 # Deep Dive Trips (ddtrips.in) — Client Acquisition Roadmap
 
-Working file for the ongoing client-acquisition push. One task = roughly one day's worth of
-work. I do the prep/drafting myself; anything that publishes, posts, sends, or spends gets
-flagged for your go-ahead before it goes live (per agency safety rules — I never post/send/spend
-on a client's public accounts without an explicit yes each time).
+Working file for the ongoing client-acquisition push. A scheduled cloud routine (Claude) runs
+daily at ~9:00 AM IST, picks the next `[ ]` task, and produces a real deliverable — not just an
+outline. Standing rule: **GMB posts get published automatically once they're built from real
+facts (see business-info.md) with no placeholders left in them.** Facebook, Instagram, review
+replies, ad spend, and anything sent to a customer (WhatsApp/email) always stay draft-only and
+wait for a human yes — the routine will never touch those live.
 
-Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or an input from you · `[x]` done
+Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or an input from you · `[x]` done · `[x]` (published) = actually live
 
 ## Blocked on you (can't route around these)
 - [ ] Windsor.ai Free plan is capped at 1 connected account but has 14 — GA4/GMB/FB reads for
@@ -17,6 +19,11 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       is connected right now
 - [ ] Share the live site URL structure / CMS access details if you want me to draft page-level
       SEO copy against the real pages instead of generic templates
+- [ ] **Add `business-info.md` to this repo** with real specifics — upcoming trip
+      names/dates/locations, prices you're OK showing, real photo/Drive links, WhatsApp number,
+      cancellation policy, any real reviews you want quoted. Without this the routine can only
+      produce placeholder drafts (`[Trip Name]`, `[Date]`) and nothing gets auto-published — this
+      is the single biggest unlock for the automation.
 
 ## Phase 1 — Foundations
 - [~] Day 1: GMB completeness checklist + review-request templates + first week of GMB posts (see today's output)
