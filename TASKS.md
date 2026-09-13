@@ -29,7 +29,7 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
 - [~] Day 1: GMB completeness checklist + review-request templates + first week of GMB posts (see today's output)
 - [~] Day 2: Website conversion audit (CTA placement, mobile, page speed, WhatsApp/call click tracking plan) — see day2-website-conversion-audit.md. Note: direct site fetch is blocked from this environment, so it's a run-this-checklist audit + a fully concrete GA4/GTM tracking spec, not a live teardown.
 - [~] Day 3: GA4 conversion-event spec (WhatsApp click / call click / enquiry form submit) to hand to whoever maintains the site — see day3-ga4-conversion-event-spec.md
-- [ ] Day 4: GMB photo/video gap list + shot list to request from the client
+- [~] Day 4: GMB photo/video gap list + shot list to request from the client — see day4-gmb-photo-video-gap-list.md
 - [ ] Day 5: Second week of GMB posts + Q&A seed questions
 
 ## Phase 2 — Content engine
