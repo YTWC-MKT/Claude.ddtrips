@@ -30,7 +30,8 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
 - [~] Day 2: Website conversion audit (CTA placement, mobile, page speed, WhatsApp/call click tracking plan) — see day2-website-conversion-audit.md. Note: direct site fetch is blocked from this environment, so it's a run-this-checklist audit + a fully concrete GA4/GTM tracking spec, not a live teardown.
 - [~] Day 3: GA4 conversion-event spec (WhatsApp click / call click / enquiry form submit) to hand to whoever maintains the site — see day3-ga4-conversion-event-spec.md
 - [~] Day 4: GMB photo/video gap list + shot list to request from the client — see day4-gmb-photo-video-gap-list.md
-- [ ] Day 5: Second week of GMB posts + Q&A seed questions
+- [~] Day 5: Second week of GMB posts + Q&A seed questions — see day5-gmb-posts-week2-qa.md
+      (placeholder draft only, still blocked on business-info.md for real specifics)
 
 ## Phase 2 — Content engine
 - [ ] Day 6: 2-week Instagram/Facebook content calendar (captions + shot list, reels-first)

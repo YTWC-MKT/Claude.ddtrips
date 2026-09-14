@@ -17,3 +17,17 @@
 - `business-info.md` still not present in the repo — still the single biggest unlock per
   TASKS.md; Day 5 (next up: second week of GMB posts) will again need placeholders unless it's
   added before the next run.
+
+## 2026-09-14
+- Re-confirmed Windsor connectors via `get_connectors`: `google_my_business` account
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" — both unchanged, no read attempted today since Day 5
+  isn't a data-driven task.
+- `business-info.md` still not present. Completed Day 5 (Week 2 GMB post calendar + 8 Q&A seed
+  questions) as a placeholder draft — see `day5-gmb-posts-week2-qa.md`. Every post and every Q&A
+  answer still has at least one bracketed placeholder (trip names, locations, prices,
+  cancellation policy, group ratios), so nothing qualifies for auto-publish under the standing
+  rule. Nothing published.
+- Next run: Day 6 (2-week Instagram/Facebook content calendar) is next up under Phase 2 — will
+  also need `business-info.md` or client input for real specifics, and per the hard rule,
+  Instagram/Facebook posts stay draft-only regardless.
