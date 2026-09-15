@@ -31,3 +31,16 @@
 - Next run: Day 6 (2-week Instagram/Facebook content calendar) is next up under Phase 2 — will
   also need `business-info.md` or client input for real specifics, and per the hard rule,
   Instagram/Facebook posts stay draft-only regardless.
+
+## 2026-09-15
+- `business-info.md` still not present in the repo. Completed Day 6 (2-week Instagram/Facebook
+  content calendar, reels-first, 14 posts with captions + shot lists) as a placeholder draft — see
+  `day6-instagram-facebook-content-calendar.md`. Cross-referenced Day 4's shot list and Day 5's
+  GMB Q&A so the three don't drift once real specifics land. Did not query Windsor today — Day 6
+  isn't a data-driven task, and Instagram/Facebook writes are never executed by this routine
+  regardless of Windsor status (hard rule, not a data gap). Nothing published or scheduled
+  anywhere; per the hard rule Instagram/Facebook stay draft-only even once placeholders are filled.
+- Next run: Day 7 (SEO landing-page copy draft for top 3 destination/course pages) is next up
+  under Phase 2 — will need either the live site URL structure/CMS access (listed under "Blocked
+  on you") or will proceed as a generic-template draft against assumed page types if that's still
+  not provided.
