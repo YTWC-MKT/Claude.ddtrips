@@ -44,3 +44,16 @@
   under Phase 2 — will need either the live site URL structure/CMS access (listed under "Blocked
   on you") or will proceed as a generic-template draft against assumed page types if that's still
   not provided.
+
+## 2026-09-16
+- `business-info.md` and site URL structure/CMS access both still not present/provided. Completed
+  Day 7 (SEO landing-page copy for 2 destination-page archetypes + 1 certification-course page,
+  full title tags/meta descriptions/body copy/FAQ/schema markup/internal linking, wired to Day 3's
+  GA4 click events and Day 2's CTA-placement findings) as a placeholder draft — see
+  `day7-seo-landing-page-copy.md`. No real destination or course names exist anywhere in the repo
+  yet, so page topics themselves are bracketed placeholders, not just prices/dates. Did not query
+  Windsor today — Day 7 isn't a data-driven task and doesn't touch GMB/Facebook. Nothing
+  published; this task type (website copy) can never auto-publish regardless of placeholders,
+  since this routine has no CMS/site access.
+- Next run: Day 8 (Local directory audit — TripAdvisor, JustDial, Sulekha, etc. — + NAP
+  consistency list) is next up under Phase 2.
