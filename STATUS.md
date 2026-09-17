@@ -57,3 +57,25 @@
   since this routine has no CMS/site access.
 - Next run: Day 8 (Local directory audit — TripAdvisor, JustDial, Sulekha, etc. — + NAP
   consistency list) is next up under Phase 2.
+
+## 2026-09-17
+- Re-confirmed Windsor connectors via `get_connectors`: `google_my_business` account
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" — both unchanged. Attempted a real `get_data` pull on
+  `google_my_business` (location title, address, phone, website, category, maps/place IDs) to
+  ground today's NAP audit in the actual live listing instead of placeholders. Got the same
+  plan-limit error as 2026-09-13: *"reads are paused because you have 14 accounts connected and
+  your Free plan includes 1 account."* Not retried, per the standing rule — moved on with a
+  framework-based deliverable.
+- `business-info.md` still not present. Completed Day 8 (local directory audit + NAP consistency
+  list) as a framework draft — see `day8-local-directory-audit.md`. Includes a "Step 0" master NAP
+  record template, a priority-ranked directory list (Google Business Profile, TripAdvisor,
+  Thrillophilia, JustDial, Facebook About tab, Bing Places, Sulekha, IndiaMART, Holidify,
+  Trawell.in, GetYourGuide/Viator, LinkedIn, Apple Business Connect, Yellow Pages India, state
+  tourism board, PADI/SSI locator) with real claim/submission URLs and a claiming workflow, plus a
+  blank tracking table ready to fill in once real NAP facts exist. Flagged two additional inputs
+  needed beyond business-info.md: which state/coast Deep Dive Trips operates from (for the
+  regional tourism board listing) and whether it holds a PADI/SSI certifying-body affiliation (for
+  the dive-specific locators). Nothing submitted to any directory — this is audit/framework only.
+- Next run: Day 9 (Partnership outreach list — hotels/resorts/dive shops — + outreach email
+  template) is next up under Phase 2.

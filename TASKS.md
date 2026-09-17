@@ -38,7 +38,8 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       (placeholder draft only, still blocked on business-info.md for real specifics; IG/FB posts never auto-publish regardless)
 - [~] Day 7: SEO landing-page copy draft for top 3 destination/course pages — see day7-seo-landing-page-copy.md
       (placeholder draft only, still blocked on business-info.md and site URL/CMS access)
-- [ ] Day 8: Local directory audit (TripAdvisor, JustDial, Sulekha, etc.) + NAP consistency list
+- [~] Day 8: Local directory audit (TripAdvisor, JustDial, Sulekha, etc.) + NAP consistency list — see day8-local-directory-audit.md
+      (framework + real submission links + tracking table; still blocked on business-info.md for the actual NAP values to fill in Step 0)
 - [ ] Day 9: Partnership outreach list (hotels/resorts/dive shops) + outreach email template
 - [ ] Day 10: Blog/long-tail SEO topic list (needs Ahrefs data once that plan issue clears, else manual)
 
