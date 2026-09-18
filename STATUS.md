@@ -79,3 +79,22 @@
   the dive-specific locators). Nothing submitted to any directory — this is audit/framework only.
 - Next run: Day 9 (Partnership outreach list — hotels/resorts/dive shops — + outreach email
   template) is next up under Phase 2.
+
+## 2026-09-18
+- Found and fixed a repo-hygiene issue before starting today's task: this session's git HEAD was
+  detached and 6 commits ahead of local `main`, while `origin/main` on GitHub was already at the
+  same commit as HEAD (7f6ce10, Day 8) — a stale local ref cache made it briefly look like Days
+  2-8 had never reached GitHub. Re-fetched and confirmed `origin/main` already had everything; no
+  data was actually at risk, but noting it here in case the detached-HEAD state recurs.
+- `business-info.md` still not present. Completed Day 9 (Partnership outreach list + email
+  templates) as a framework draft — see `day9-partnership-outreach.md`. Covers 7 partner
+  categories (hotels/resorts, non-competing dive shops for cross-referral, tour operators,
+  water-sports operators, wedding/underwater photographers, corporate/MICE — deferred to Day 14,
+  backpacker hostel chains) with real, runnable methods for finding actual prospects (PADI/SSI
+  locators, Google Maps searches, JustDial/IndiaMART, Instagram hashtags), an outreach priority
+  sequence, 5 ready-to-send email templates (hotel pitch, dive-shop cross-referral, water-sports
+  in-person message, hostel-chain partner inquiry, follow-up), and a blank tracking table. Did not
+  query Windsor today — this task doesn't touch GMB/Facebook/ads. Nothing sent to anyone; per the
+  hard rule all outreach/messaging stays human-sent regardless of placeholder status.
+- Next run: Day 10 (Blog/long-tail SEO topic list) is next up under Phase 2 — needs Ahrefs data
+  once that plan issue clears, else will proceed manually per TASKS.md's own note.

@@ -40,7 +40,8 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       (placeholder draft only, still blocked on business-info.md and site URL/CMS access)
 - [~] Day 8: Local directory audit (TripAdvisor, JustDial, Sulekha, etc.) + NAP consistency list — see day8-local-directory-audit.md
       (framework + real submission links + tracking table; still blocked on business-info.md for the actual NAP values to fill in Step 0)
-- [ ] Day 9: Partnership outreach list (hotels/resorts/dive shops) + outreach email template
+- [~] Day 9: Partnership outreach list (hotels/resorts/dive shops) + outreach email template — see day9-partnership-outreach.md
+      (framework + real prospect-finding methods + 5 email templates + tracking table; still blocked on business-info.md for location/coast, contact number, and certifying-body affiliation)
 - [ ] Day 10: Blog/long-tail SEO topic list (needs Ahrefs data once that plan issue clears, else manual)
 
 ## Phase 3 — Paid + retention
