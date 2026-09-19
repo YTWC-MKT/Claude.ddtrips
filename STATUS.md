@@ -98,3 +98,25 @@
   hard rule all outreach/messaging stays human-sent regardless of placeholder status.
 - Next run: Day 10 (Blog/long-tail SEO topic list) is next up under Phase 2 — needs Ahrefs data
   once that plan issue clears, else will proceed manually per TASKS.md's own note.
+
+## 2026-09-19
+- Checked Ahrefs before starting Day 10: `subscription-info-limits-and-usage` and
+  `keywords-explorer-matching-terms` (query "scuba diving india", country `in`) both returned
+  `{"error": "Insufficient plan"}` — the Ahrefs API key on this account isn't on a tier that
+  includes Keywords Explorer/usage data. This is a separate blocker from the Windsor GMB/FB
+  14-accounts-on-Free-plan issue (different platform, different account) — logging it here as its
+  own item, not retried, per the standing rule. Did not query Windsor today since Day 10 doesn't
+  touch GMB/Facebook.
+- `business-info.md` still not present. Completed Day 10 (blog/long-tail SEO topic list) manually
+  per TASKS.md's own fallback note — see `day10-blog-seo-topics.md`. 13 fully-briefed topics
+  (keyword, intent, title/meta, outline, internal links, CTA) across two tiers: 8 top-of-funnel
+  informational posts needing zero Deep Dive Trips-specific facts, and 5 comparison/mid-funnel
+  posts blocked only on one new input — which certifying body (PADI/SSI/both) Deep Dive Trips is
+  affiliated with, now needed by three separate deliverables (this file, Day 7's course page, Day
+  9's dive-shop outreach). 4 more destination-specific topics listed for later sequencing, blocked
+  on business-info.md. Includes a suggested 12-week publishing calendar wired to Day 7's landing
+  pages for internal linking and Day 3's GA4 click events. Nothing published — this routine has no
+  CMS/blog access, so this task always ends in a draft file.
+- Next run: Day 11 (Meta ads campaign structure + creative brief) is next up under Phase 3 — ad
+  spend/targeting always stays draft-only regardless of placeholder status per the hard rule, so
+  this will be a full draft file rather than anything executed.

@@ -42,7 +42,10 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       (framework + real submission links + tracking table; still blocked on business-info.md for the actual NAP values to fill in Step 0)
 - [~] Day 9: Partnership outreach list (hotels/resorts/dive shops) + outreach email template — see day9-partnership-outreach.md
       (framework + real prospect-finding methods + 5 email templates + tracking table; still blocked on business-info.md for location/coast, contact number, and certifying-body affiliation)
-- [ ] Day 10: Blog/long-tail SEO topic list (needs Ahrefs data once that plan issue clears, else manual)
+- [~] Day 10: Blog/long-tail SEO topic list — see day10-blog-seo-topics.md
+      (Ahrefs API returned "Insufficient plan" today, logged in STATUS.md; done manually per the
+      task's own fallback note. 13 fully-briefed topics ready to draft now, 4 destination-specific
+      topics blocked on business-info.md)
 
 ## Phase 3 — Paid + retention
 - [ ] Day 11: Meta ads campaign structure + creative brief (audiences, budgets, hooks)
