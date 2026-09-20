@@ -120,3 +120,27 @@
 - Next run: Day 11 (Meta ads campaign structure + creative brief) is next up under Phase 3 — ad
   spend/targeting always stays draft-only regardless of placeholder status per the hard rule, so
   this will be a full draft file rather than anything executed.
+
+## 2026-09-20
+- Re-confirmed Windsor connectors via `get_connectors`: `google_my_business` account
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" — both unchanged. Noted `googleanalytics4` now also
+  shows a connected `ddtrips.in` account (id `540396303`) that wasn't previously flagged as
+  connected — worth revisiting for Day 3's GA4 event verification once the Free-plan account cap
+  is resolved.
+- Attempted a real `get_data` pull on `facebook_organic` (page name, fan count) to ground today's
+  Meta ads audience/budget brief in real page-size data. Got the same plan-limit error as prior
+  days: *"reads are paused because you have 14 accounts connected and your Free plan includes 1
+  account."* Not retried, per the standing rule — moved on with industry-standard starting
+  budgets instead of real account-size-informed ones.
+- `business-info.md` still not present. Completed Day 11 (Meta ads campaign structure + creative
+  brief) as a framework draft — see `day11-meta-ads-campaign-brief.md`. Covers a 4-campaign
+  account structure (retargeting, trial-dive prospecting, certification prospecting, seasonal/
+  urgency), a real starting budget baseline (₹1,200-1,500/day total, phased rollout
+  recommendation starting with just Campaign 2), a lookalike + interest-stack audience plan wired
+  to Day 3's pixel events, and 4 full creative concepts (hooks, captions, CTA buttons) — 3 of the
+  4 need only business-info.md facts to become launch-ready, the seasonal concept needs a
+  specific upcoming trip to exist first. Nothing executed — hard rule, ad spend never
+  auto-publishes regardless of placeholder status.
+- Next run: Day 12 (Google Ads keyword list + campaign structure — Search + Performance Max) is
+  next up under Phase 3.

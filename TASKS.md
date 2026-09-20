@@ -48,7 +48,10 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       topics blocked on business-info.md)
 
 ## Phase 3 — Paid + retention
-- [ ] Day 11: Meta ads campaign structure + creative brief (audiences, budgets, hooks)
+- [~] Day 11: Meta ads campaign structure + creative brief (audiences, budgets, hooks) — see day11-meta-ads-campaign-brief.md
+      (framework + real account structure/budget baseline/audience stack/4 creative concepts;
+      still blocked on business-info.md for trip names/dates/prices/certifying body; ad spend
+      always stays draft-only regardless per the hard rule)
 - [ ] Day 12: Google Ads keyword list + campaign structure (Search + Performance Max)
 - [ ] Day 13: WhatsApp broadcast list setup plan + referral program design
 - [ ] Day 14: Corporate/group booking outreach list + pitch template
