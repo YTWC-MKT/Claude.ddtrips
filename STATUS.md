@@ -144,3 +144,31 @@
   auto-publishes regardless of placeholder status.
 - Next run: Day 12 (Google Ads keyword list + campaign structure — Search + Performance Max) is
   next up under Phase 3.
+
+## 2026-09-21
+- Found and fixed a repo-hygiene issue before starting today's task: local `main` was stale
+  (pointing at the Day 9 commit) while this session's `HEAD` was already 2 commits ahead
+  (Day 10, Day 11) and detached — same class of issue logged on 2026-09-18. Fetched origin,
+  confirmed `origin/main` already had both Day 10 and Day 11 (nothing was actually unpushed this
+  time), then reset local `main` to match and re-attached HEAD. No data lost.
+- Re-confirmed Windsor connectors via `get_connectors`: `google_my_business` account
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" — both unchanged. Did not attempt a `get_data` read
+  today since Day 12 doesn't need GMB/FB data (it needs Google Ads + Ahrefs data instead).
+- Checked Ahrefs before starting: `subscription-info-limits-and-usage` again returned
+  `{"error": "Insufficient plan"}` — same blocker as Day 10, not retried per the standing rule.
+  No real keyword volume/CPC/competition data was available, so Day 12's keyword list is
+  prioritized by commercial intent only, with no invented metrics.
+- `business-info.md` still not present. Completed Day 12 (Google Ads keyword list + campaign
+  structure) as a framework draft — see `day12-google-ads-keyword-campaign.md`. Covers a
+  5-campaign account structure (Brand, Certification, Trial/Fun Dive, Location/Generic Search,
+  plus a Performance Max campaign sequenced to launch only after Search has 2-4 weeks of real
+  conversion data), keyword lists by intent tier with match types, a negative-keyword list,
+  starting daily budgets (~₹1,600/day Search-only at launch, ~₹2,000/day once PMax turns on),
+  and full RSA headline/description copy for the Brand, Trial Dive, and Certification ad groups
+  (rest templated, same pattern, ready once business-info.md lands). Wired conversion tracking to
+  Day 3's three GA4 events and location targeting to the same coast/state input already blocked
+  in Day 8/9/10. Nothing executed — Windsor doesn't even show a connected `google_ads` account
+  for this business, and ad spend never auto-publishes regardless per the hard rule.
+- Next run: Day 13 (WhatsApp broadcast list setup plan + referral program design) is next up
+  under Phase 3.

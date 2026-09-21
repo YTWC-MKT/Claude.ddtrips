@@ -52,7 +52,11 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       (framework + real account structure/budget baseline/audience stack/4 creative concepts;
       still blocked on business-info.md for trip names/dates/prices/certifying body; ad spend
       always stays draft-only regardless per the hard rule)
-- [ ] Day 12: Google Ads keyword list + campaign structure (Search + Performance Max)
+- [~] Day 12: Google Ads keyword list + campaign structure (Search + Performance Max) — see day12-google-ads-keyword-campaign.md
+      (framework + full Search account structure/keyword tiers/negatives/budgets/RSA copy for
+      brand+trial-dive+certification ad groups + PMax sequencing plan; Ahrefs still plan-blocked
+      so no real volume/CPC data, prioritized by intent instead; still blocked on business-info.md
+      for coast/state, certifying body, prices, dates; ad spend always stays draft-only regardless)
 - [ ] Day 13: WhatsApp broadcast list setup plan + referral program design
 - [ ] Day 14: Corporate/group booking outreach list + pitch template
 
