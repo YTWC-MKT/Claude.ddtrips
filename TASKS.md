@@ -57,7 +57,10 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       brand+trial-dive+certification ad groups + PMax sequencing plan; Ahrefs still plan-blocked
       so no real volume/CPC data, prioritized by intent instead; still blocked on business-info.md
       for coast/state, certifying body, prices, dates; ad spend always stays draft-only regardless)
-- [ ] Day 13: WhatsApp broadcast list setup plan + referral program design
+- [~] Day 13: WhatsApp broadcast list setup plan + referral program design — see day13-whatsapp-referral-program.md
+      (full setup plan + templates + tracking tables; still blocked on business-info.md for
+      WhatsApp number, real trip/pricing details, and certifying body; messaging always stays
+      draft-only regardless per the hard rule)
 - [ ] Day 14: Corporate/group booking outreach list + pitch template
 
 ## Ongoing (recurring, not one-and-done)

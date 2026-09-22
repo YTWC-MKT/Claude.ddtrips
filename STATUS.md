@@ -172,3 +172,30 @@
   for this business, and ad spend never auto-publishes regardless per the hard rule.
 - Next run: Day 13 (WhatsApp broadcast list setup plan + referral program design) is next up
   under Phase 3.
+
+## 2026-09-22
+- Found and fixed the same repo-hygiene issue logged on 2026-09-18/21 again: this session's
+  checkout started with `HEAD` detached at the same commit as `origin/main` (`c3fdbe4`, Day 12)
+  while the local `main` branch ref was still 3 commits stale (pointing at Day 9). Checked out
+  `main` and fast-forwarded it to `origin/main` before starting today's work — no data lost, no
+  force-push needed.
+- Did not query Windsor today — Day 13 (WhatsApp broadcast list + referral program) isn't a
+  connected read/write platform in this setup, so there was nothing to verify against live data.
+- `business-info.md` still not present. Completed Day 13 (WhatsApp broadcast list setup plan +
+  referral program design) as a framework draft — see `day13-whatsapp-referral-program.md`.
+  Covers: a WhatsApp Business App vs. API-platform decision with an India-specific
+  recommendation, the Meta opt-in/24-hour-window compliance rules explained plainly, 4 real list-
+  building touchpoints wired to existing Day 1 review-request messaging, a 4-segment list
+  structure, a monthly broadcast cadence (2-4 sends/month cap), 5 WhatsApp message templates, a
+  full two-sided "Give a Dive, Get a Dive" referral program design (mechanics, terms, 3 message
+  templates) that needs no CRM/software to run, and two tracking tables. Still blocked on
+  `business-info.md` for the WhatsApp number, real trip/pricing data (needed to size the referral
+  discount sensibly), and certifying-body affiliation. Nothing sent or executed — WhatsApp isn't
+  a connected write channel here, and customer messaging always stays human-sent regardless per
+  the hard rule.
+- Next run: Day 14 (Corporate/group booking outreach list + pitch template) is next up — this is
+  the last task under Phase 1-3 that isn't yet at least `[~]`. Once Day 14 is done, every Phase
+  1-3 task will be drafted and waiting on `business-info.md` (and, for a few, on live site/CMS
+  access and the Windsor account-cap fix) to become fully real; the routine will then have no new
+  Phase 1-3 work to invent and will shift to updating this file to say so per the standing
+  instructions, until business-info.md unblocks a real next step.
