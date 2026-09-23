@@ -199,3 +199,27 @@
   access and the Windsor account-cap fix) to become fully real; the routine will then have no new
   Phase 1-3 work to invent and will shift to updating this file to say so per the standing
   instructions, until business-info.md unblocks a real next step.
+
+## 2026-09-23
+- Repo was clean and in sync this time (`git status` clean, local `main` already matched
+  `origin/main` at `861eaa5`, Day 13) — no repeat of the detached-HEAD/stale-branch hygiene issue
+  logged on 2026-09-18/21/22.
+- `business-info.md` still not present. Completed Day 14 (Corporate/group booking outreach list +
+  pitch template) — see `day14-corporate-group-outreach.md`. Covers 5 prospect segments (corporate
+  offsite/event planners, HR/L&D direct, college adventure clubs/fest committees, bachelor(ette)/
+  wedding planners, CSR/team-building consultancies) with real prospect-finding methods per
+  segment, a corporate-readiness checklist (GST invoicing, safety/cert one-pager, group capacity
+  limit, PO-based billing) worth confirming before the first pitch goes out, 5 ready-to-send pitch
+  templates, an outreach sequencing plan, and a tracking table. This was the segment Day 9
+  deliberately deferred to today rather than duplicating. Still blocked on `business-info.md` for
+  location, contact number, certifying body, group capacity, and group pricing tiers. Nothing sent
+  — outreach always stays draft-only per the hard rule regardless of input completeness.
+- Did not query Windsor today — this task doesn't touch GMB, Facebook, or any connected ad
+  platform, so there was nothing to read or verify against live data.
+- With Day 14 done, **every Phase 1-3 task is now at least `[~]` (drafted)** — none remain `[ ]`.
+  Per the standing instructions, once every Phase 1-3 task is drafted/published, the routine
+  should stop inventing new work and instead note here that everything is waiting on human review
+  and on `business-info.md`. Next run: unless `business-info.md` has been added by then, expect the
+  next session to do exactly that (confirm nothing new to draft, log it, stop) rather than starting
+  on the "Ongoing (recurring)" section, since those items are themselves blocked on the same
+  Windsor account-cap fix and aren't one-and-done deliverables to draft.

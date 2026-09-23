@@ -61,7 +61,10 @@ Status legend: `[ ]` not started · `[~]` drafted, waiting on your approval or a
       (full setup plan + templates + tracking tables; still blocked on business-info.md for
       WhatsApp number, real trip/pricing details, and certifying body; messaging always stays
       draft-only regardless per the hard rule)
-- [ ] Day 14: Corporate/group booking outreach list + pitch template
+- [~] Day 14: Corporate/group booking outreach list + pitch template — see day14-corporate-group-outreach.md
+      (framework + 5 prospect categories + corporate-readiness checklist + 5 pitch templates + tracking table;
+      still blocked on business-info.md for location, contact number, certifying body, group capacity, and
+      group pricing; outreach always stays draft-only regardless per the hard rule)
 
 ## Ongoing (recurring, not one-and-done)
 - [ ] Weekly: review GMB insights (calls, website clicks, direction requests, search queries) once Windsor plan is fixed
