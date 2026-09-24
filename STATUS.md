@@ -223,3 +223,16 @@
   next session to do exactly that (confirm nothing new to draft, log it, stop) rather than starting
   on the "Ongoing (recurring)" section, since those items are themselves blocked on the same
   Windsor account-cap fix and aren't one-and-done deliverables to draft.
+
+## 2026-09-24
+- Repo was clean and already in sync with `origin/main` at `30a6bb1` (Day 14) — no detached-HEAD
+  or stale-branch hygiene issue today.
+- `business-info.md` still not present. All Phase 1-3 tasks remain `[~]` (drafted, none unblocked
+  since yesterday) — same state as the 2026-09-23 run. Per the standing instructions, not
+  inventing new work; the "Ongoing (recurring)" section stays out of scope since those items are
+  one-and-done-not, and are themselves blocked on the same Windsor account-cap fix.
+- Did not query Windsor today — nothing in scope for this run touches a connected platform, so
+  there was nothing to read or verify.
+- Next run: still waiting on `business-info.md` (biggest unlock) and, secondarily, the Windsor
+  account-cap fix, live site/CMS access, and the Instagram/GSC connector additions listed under
+  "Blocked on you" in TASKS.md. No action needed from the routine until one of those lands.
