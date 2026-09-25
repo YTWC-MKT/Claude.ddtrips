@@ -236,3 +236,32 @@
 - Next run: still waiting on `business-info.md` (biggest unlock) and, secondarily, the Windsor
   account-cap fix, live site/CMS access, and the Instagram/GSC connector additions listed under
   "Blocked on you" in TASKS.md. No action needed from the routine until one of those lands.
+
+## 2026-09-25
+- Repo hygiene: session started with local `HEAD` detached at `188c0c9` while the local `main`
+  branch ref was stale at `30a6bb1` (Day 14) — the same recurring stale-branch pattern logged on
+  2026-09-18/21/22. Checked out `main` and fast-forwarded it to `origin/main` (`188c0c9`) before
+  starting — no data lost, no force-push needed.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  already `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today, and the "Ongoing (recurring)" section stays out of scope since
+  it's blocked on the same Windsor account-cap fix and isn't one-and-done deliverable work.
+- Queried Windsor (`get_connectors`) to check whether the account owner has changed anything: the
+  `google_my_business` account `locations/17253298120475111002` = "Deep Dive Trips" and
+  `facebook_organic` account `1068114356395128` = "Deep Dive Trips" are both still connected as
+  configured. Noted one new connector: `googleanalytics4` now lists a `www.ddtrips.in`-labeled
+  account (`540396303`) that wasn't there before — GA4 for the client's own site is now connected
+  in Windsor, which was one of the "Blocked on you" items. However, a live `get_data` pull against
+  `google_my_business` (calls/website_clicks, Sept 1-24) still came back null/zeroed
+  (`location_name: null, calls: null, website_clicks: 0`), so the Windsor Free-plan account-cap
+  read-pause described in TASKS.md appears to still be in effect — the new GA4 connection doesn't
+  yet mean real numbers are flowing. Did not touch Facebook or Instagram (no write action
+  permitted there regardless).
+- No GMB post published today: nothing in scope required a new GMB post, and publishing one
+  without a fresh, real fact to post about (beyond what Day 1/Day 5 already drafted) would just be
+  filler content, which isn't the goal.
+- Next run: still waiting on `business-info.md` (biggest unlock — turns every Phase 1-3 draft into
+  a publishable/sendable final version) and, secondarily, the Windsor account-cap fix (now half
+  addressed via the new GA4 connector, but GMB/FB reads are still paused), live site/CMS access,
+  and the Instagram/GSC-for-ddtrips.in connector additions listed under "Blocked on you" in
+  TASKS.md. No action needed from the routine until one of those lands.
