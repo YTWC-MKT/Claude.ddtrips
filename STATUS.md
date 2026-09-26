@@ -265,3 +265,28 @@
   addressed via the new GA4 connector, but GMB/FB reads are still paused), live site/CMS access,
   and the Instagram/GSC-for-ddtrips.in connector additions listed under "Blocked on you" in
   TASKS.md. No action needed from the routine until one of those lands.
+
+## 2026-09-26
+- Repo hygiene: session started with local `HEAD` detached at `921ac44` while the local `main`
+  branch ref was stale at `30a6bb1` (Day 14) — same recurring stale-branch pattern as prior runs.
+  Checked out `main` and fast-forwarded it to `origin/main` (`921ac44`) before starting — no data
+  lost, no force-push needed.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  already `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today, and the "Ongoing (recurring)" section stays out of scope since
+  it's blocked on the same Windsor account-cap fix and isn't one-and-done deliverable work.
+- Queried Windsor (`get_connectors`) to check for account-owner changes: `google_my_business`
+  location `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" are both still connected as configured. No new
+  connectors relevant to ddtrips.in since 2026-09-25 (GA4 `ddtrips.in` account `540396303` still
+  present; Instagram for Deep Dive Trips and Google Search Console for ddtrips.in still not
+  connected).
+- Spot-checked `google_my_business` reads (calls/website_clicks/direction_requests, last 30d):
+  still coming back null/zeroed (`location_name: null, calls: null, website_clicks: 0`) — the
+  Windsor Free-plan account-cap read-pause described in TASKS.md is still in effect.
+- No GMB post published today: nothing in scope required a new GMB post, and posting filler
+  content with no new real fact behind it isn't the goal.
+- Next run: still waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix
+  (GMB/FB reads still paused), live site/CMS access, and the Instagram/GSC-for-ddtrips.in
+  connector additions listed under "Blocked on you" in TASKS.md. No action needed from the
+  routine until one of those lands.
