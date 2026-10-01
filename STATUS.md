@@ -393,3 +393,28 @@
   (GMB/FB reads still paused), live site/CMS access, and the Instagram/GSC-for-ddtrips.in
   connector additions listed under "Blocked on you" in TASKS.md. No action needed from the
   routine until one of those lands.
+
+## 2026-10-01
+- Repo was clean and in sync with `origin/main` (`80279eb`) — no detached-HEAD/stale-branch issue
+  today.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  already `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today.
+- Queried Windsor (`get_connectors`): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" are both still connected as configured. No new
+  connectors relevant to ddtrips.in (GA4 `ddtrips.in` account `540396303` still present;
+  Instagram for Deep Dive Trips and Google Search Console for ddtrips.in still not connected).
+- Spot-checked `google_my_business` reads (calls/website_clicks/direction_requests, last 30d):
+  still coming back null/zeroed (`location_name: null, calls: null, website_clicks: 0`) — the
+  Windsor Free-plan account-cap read-pause described in TASKS.md is still in effect.
+- No GMB post published today: nothing in scope required a new GMB post.
+- **Flagging for the human:** this is the 9th consecutive daily run (since 2026-09-23) that has
+  found zero new work to do. All 14 Phase 1-3 deliverables have been sitting at `[~]` (drafted)
+  for over a week with no progress possible until `business-info.md` is added — nothing has
+  shipped (no real GMB post, no real ad spend, no real outreach sent) because every draft is full
+  of bracketed placeholders. The Windsor account-cap issue and the Instagram/GSC connector gaps
+  are secondary blockers but `business-info.md` is the one thing that would unstick everything at
+  once. The routine will keep logging this same no-op daily until one of these is addressed.
+- Next run: same — waiting on `business-info.md`, the Windsor account-cap fix, live site/CMS
+  access, and the Instagram/GSC-for-ddtrips.in connector additions.
