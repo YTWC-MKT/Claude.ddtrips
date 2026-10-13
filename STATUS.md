@@ -688,3 +688,26 @@
   has changed. Still waiting on the same four unlocks.
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
+
+## 2026-10-13
+- Repo was clean and in sync with `origin/main` (`4dbe4c5`) — no detached-HEAD/stale-branch issue
+  today.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  already `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today.
+- Queried Windsor (`get_connectors`): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" are both still connected as configured, unchanged. No
+  new connectors relevant to ddtrips.in — GA4 `ddtrips.in` account `540396303` still present;
+  Instagram for Deep Dive Trips and Google Search Console for ddtrips.in still not connected
+  (only Elegant Photo Studio / ShutterDeck accounts are connected for those two).
+- Spot-checked `google_my_business` reads (calls/website_clicks/direction_requests, last 30d):
+  still coming back null/zeroed (`location_name: null, calls: null, website_clicks: 0,
+  direction_requests: 0`) — the Windsor Free-plan account-cap read-pause is still in effect.
+- No GMB post published today: nothing in scope required a new GMB post.
+- This is the 22nd consecutive daily run (since 2026-09-23) with zero new work possible — first
+  flagged explicitly to the human on 2026-10-01 (9th run) and not re-flagged daily since, since
+  nothing has changed. That's now 3 full weeks stalled on the same blocker. Pushing a notification
+  today given how long this has sat untouched.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
