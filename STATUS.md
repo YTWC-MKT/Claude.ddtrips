@@ -813,3 +813,41 @@
   new, actionable finding (not just a repeat of "still waiting").
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
+
+## 2026-10-18
+- Repo hygiene: session again started with local `HEAD` **detached**, this time at `2ba2032`
+  (the 2026-10-17 status commit) — 5 commits ahead of local `main`, which was still stuck at
+  `4dbe4c5`. This is the same pattern flagged on 2026-10-17, and it recurred for all 5 days in
+  between (2026-10-13 through 2026-10-17) despite that day's manual fast-forward: each day's own
+  final status commit appears to get made after `HEAD` has detached again, so the fix doesn't
+  hold run-to-run. Ran `git checkout main && git merge --ff-only 2ba2032` — fast-forwarded local
+  `main` cleanly. `git push` reported "Everything up-to-date": `origin/main` already had all 5
+  commits (confirmed via `git fetch origin main`), so only the local `main` ref inside this
+  session's checkout was ever stale — no data was lost or at risk on any of the 5 days. Still
+  flagging this as a standing pattern worth a fix at the session-init level (the checkout step
+  that starts each day's session is landing commits on a detached `HEAD` instead of `main`), but
+  since it has had zero actual impact for 5+ consecutive recurrences (origin/main is always
+  correct, recovery is a clean fast-forward every time), not escalating further than this log.
+- `business-info.md` still not present at the repo root. Re-checked anyway since this is the
+  single biggest unlock: not added. Every Phase 1-3 task in TASKS.md is still `[~]` (drafted) —
+  none are `[ ]` — so per the standing instructions there is no new Phase 1-3 work to invent
+  today.
+- Queried Windsor (`get_connectors`): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" both still connected as configured, unchanged. GA4
+  `ddtrips.in` account `540396303` still present. Instagram for Deep Dive Trips and Google Search
+  Console for ddtrips.in are still **not** connected (only Elegant Photo Studio / ShutterDeck
+  accounts show up for those two) — both still sit under "Blocked on you" in TASKS.md, unchanged.
+- Spot-checked a `google_my_business` read (calls/website_clicks/direction_requests, last 30d) to
+  see if the account-cap read-pause had lifted: still zeroed/null (`location_name: null,
+  calls: null, website_clicks: 0, direction_requests: 0`) — Windsor Free-plan 14-accounts-vs-1
+  cap is still in effect, unchanged.
+- No GMB post published today: nothing in scope required a new one, and `business-info.md` still
+  doesn't exist to build a placeholder-free post from.
+- This is the 27th consecutive daily run (since 2026-09-23) with zero new Phase 1-3 work
+  possible. Already flagged to the human on 2026-10-01 and 2026-10-13 (3-week mark); nothing on
+  the content/blocker side has changed since, so not re-notifying today on that front — the
+  commits-not-on-main pattern above is logged but had no actual impact, so it also doesn't meet
+  the bar for a push notification today.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
