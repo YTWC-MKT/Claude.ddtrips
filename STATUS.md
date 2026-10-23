@@ -956,3 +956,30 @@
   when nothing changed" rule.
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
+
+## 2026-10-23
+- Repo hygiene: session started with local `HEAD` detached at `60f1adb` (the 2026-10-22 status
+  commit), 2 commits behind local `main`. Ran `git checkout main && git merge --ff-only 60f1adb` —
+  clean fast-forward, confirmed `origin/main` already matched (`git fetch origin main`), no data
+  at risk.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  still `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today.
+- Queried Windsor (`get_connectors`): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" both still connected as configured, unchanged. GA4
+  `ddtrips.in` account `540396303` still present. Instagram for Deep Dive Trips and Google Search
+  Console for ddtrips.in are still **not** connected (only Elegant Photo Studio / ShutterDeck
+  accounts show up for those two) — both still sit under "Blocked on you" in TASKS.md, unchanged.
+- Spot-checked a `google_my_business` read (calls/website_clicks/direction_requests, last 30d):
+  still zeroed/null (`location_name: null, calls: null, website_clicks: 0,
+  direction_requests: 0`) — Windsor Free-plan 14-accounts-vs-1 cap is still in effect, unchanged.
+- No GMB post published today: nothing in scope required a new one, and `business-info.md` still
+  doesn't exist to build a placeholder-free post from.
+- This is the 32nd consecutive daily run (since 2026-09-23) with zero new Phase 1-3 work
+  possible. Already flagged to the human on 2026-10-01 and 2026-10-13 (3-week mark); the next
+  planned flag is the ~5-week mark (around 2026-10-28), not due yet, and nothing on the
+  content/blocker side has changed since 2026-10-19, so not re-notifying today per the "silence
+  when nothing changed" rule.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
