@@ -1167,3 +1167,23 @@
   nothing, or immediately once `business-info.md` lands.
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
+
+## 2026-10-31
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  still `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today.
+- Queried Windsor (`get_connectors`): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" both still connected as configured, unchanged. Instagram
+  for Deep Dive Trips and Google Search Console for ddtrips.in are still **not** connected (only
+  Elegant Photo Studio / ShutterDeck accounts show up for those two) — both still sit under
+  "Blocked on you" in TASKS.md, unchanged.
+- No GMB post published today: nothing in scope required a new one, and `business-info.md` still
+  doesn't exist to build a placeholder-free post from.
+- This is the 40th consecutive daily run (since 2026-09-23, right after Day 14) with zero new
+  Phase 1-3 work possible. Already flagged the ~5-week stall to the human on 2026-10-28; nothing
+  material has changed since (only 3 days have passed), so per that plan and the "silence when
+  nothing changed" rule, not re-notifying today. Will re-flag if ~2-3 more weeks pass with still
+  nothing, or immediately once `business-info.md` lands.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions.
