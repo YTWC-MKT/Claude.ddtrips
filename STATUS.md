@@ -1578,3 +1578,27 @@
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions. No action
   needed from the routine until one of those lands.
+
+## 2026-11-18
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  still `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today.
+- Queried Windsor (`get_connectors`, including not-yet-connected): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" both still connected as configured, unchanged. GA4
+  `ddtrips.in` account `540396303` still present. Instagram for Deep Dive Trips and Google Search
+  Console for ddtrips.in are still **not** connected (Instagram only lists Elegant Photo Studio /
+  ShutterDeck; Search Console only lists `sc-domain:elegantphotostudio.in`) — both still sit under
+  "Blocked on you" in TASKS.md, unchanged. Did not attempt a `get_data` read today (the Windsor
+  Free-plan account-cap error is presumed unchanged per the standing "don't retry a plan-limit
+  error" rule, and no in-scope task needed fresh data anyway).
+- No GMB post published today: nothing in scope required a new one, and `business-info.md` still
+  doesn't exist to build a placeholder-free post from.
+- This is the day the 2026-10-28 re-flag plan named as the outer threshold (~2026-11-18) — but
+  the re-flag already fired early, on 2026-11-16, once the stall hit its 9th week. Nothing
+  material has changed since that notification (no business-info.md, no connector changes, no
+  Windsor plan upgrade), so per the "silence when nothing changed" rule, not sending another
+  notification today.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions. No action
+  needed from the routine until one of those lands.
