@@ -1648,3 +1648,32 @@
 - Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
   live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions. No action
   needed from the routine until one of those lands.
+
+## 2026-11-21
+- Repo hygiene: session started with local `HEAD` detached at `6d374c0` while the local `main`
+  branch ref was stale at `a994650` (Day 57) — the same recurring stale-branch pattern logged on
+  prior runs. Checked out `main` and fast-forwarded it to `origin/main` (`6d374c0`) before
+  starting — no data lost, no force-push needed.
+- `business-info.md` still not present at the repo root. Every Phase 1-3 task in TASKS.md is
+  still `[~]` (drafted) — none are `[ ]` — so per the standing instructions there is no new
+  Phase 1-3 work to invent today (Day 58 remains the latest drafted item).
+- Queried Windsor (`get_connectors`, including not-yet-connected): `google_my_business` location
+  `locations/17253298120475111002` = "Deep Dive Trips" and `facebook_organic` account
+  `1068114356395128` = "Deep Dive Trips" both still connected as configured, unchanged. GA4
+  `ddtrips.in` account `540396303` still present. Instagram for Deep Dive Trips and Google Search
+  Console for ddtrips.in are still **not** connected (Instagram only lists Elegant Photo Studio /
+  ShutterDeck; Search Console only lists `sc-domain:elegantphotostudio.in`) — both still sit under
+  "Blocked on you" in TASKS.md, unchanged.
+- Attempted a `get_data` read on `google_my_business` (calls/website_clicks/direction_requests,
+  last 30d) to check whether the account-cap read-pause had lifted: it is still active — "reads
+  are paused because you have 14 accounts connected ... Free plan includes 1 account." Per the
+  standing rule, not retrying; logging once here and moving on.
+- No GMB post published today: nothing in scope required a new one, and `business-info.md` still
+  doesn't exist to build a placeholder-free post from.
+- Now the 13th week of the stall (since 2026-09-23, right after Day 14). Nothing material has
+  changed since the last re-flag to the human on 2026-11-16 (no business-info.md, no connector
+  changes, no Windsor plan upgrade), so per the "silence when nothing changed" rule, not sending
+  another notification today.
+- Next run: same — waiting on `business-info.md` (biggest unlock), the Windsor account-cap fix,
+  live site/CMS access, and the Instagram/GSC-for-ddtrips.in connector additions. No action
+  needed from the routine until one of those lands.
